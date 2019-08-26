@@ -34,7 +34,7 @@ spec:
         imagePullPolicy: Always
         args:
           - "managed-airflow-test"
-          - "us-west1"
+          - "asia-southeast1-b"
         name: airflow-testing
         env:
         - name: GCS_BUCKET

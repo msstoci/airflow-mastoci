@@ -43,7 +43,7 @@ main() {
 
 # Defaults.
 APP="../app/app_template.yaml"
-REGION="us-east1"
+REGION="asia-southeast1-b"
 SERVICE_NAME="default"
 
 if [[ "$#" == 0 ]]; then

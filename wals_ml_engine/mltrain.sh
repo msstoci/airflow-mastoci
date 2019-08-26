@@ -50,7 +50,7 @@ date
 TIME=`date +"%Y%m%d_%H%M%S"`
 
 # change to your preferred region
-REGION=us-central1
+REGION=asia-southeast1-b
 
 if [[ $# < 3 ]]; then
   usage

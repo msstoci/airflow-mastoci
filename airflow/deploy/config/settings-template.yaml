@@ -15,7 +15,7 @@
 project: YOUR-PROJECT-ID
 web_ui_username: airflow
 cloud_sql:
-  region: us-central1
+  region: asia-southeast1-b
   tier: db-n1-standard-1
 
   root_user: root
@@ -23,10 +23,10 @@ cloud_sql:
   user: airflow
 
 gcs:
-  location: us-central1
+  location: asia-southeast1-b
 
 kubernetes:
-  zone: "us-central1-a"
+  zone: "asia-southeast1-b"
   deployment:
     webserver: "config/k8s/deploy-webserver.yaml"
     redis: "config/k8s/deploy-redis.yaml"

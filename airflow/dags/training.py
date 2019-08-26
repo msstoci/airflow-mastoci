@@ -46,7 +46,7 @@ ARTICLE_CUSTOM_DIMENSION = '10'
 
 # GCS bucket names and region, can also be changed.
 BUCKET = 'gs://recserve_' + PROJECT_ID
-REGION = 'us-east1'
+REGION = 'asia-southeast1-b'
 
 # The code package name comes from the model code in the wals_ml_engine
 # directory of the solution code base.
